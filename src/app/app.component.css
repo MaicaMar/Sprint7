@@ -1,0 +1,56 @@
+.login-button {
+  font-weight: 400;
+  font-size: 14px;
+  color: gray;
+  letter-spacing: 0.05em;
+  padding: 0;
+  vertical-align: middle;
+}
+
+i {
+  font-size: 14px;
+  color: gray;
+}
+
+.logo-starwars {
+  height: 70px;
+  transition: transform 0.1s;
+  cursor: pointer; /* Cambia la imagen al hacer hover */
+}
+
+.logo-starwars:hover {
+  /* Cambia la imagen al hacer hover */
+  content: url('../assets/img/sw_logo_stacked_warning.png');
+  transform: scale(1.05); /* Aumento de tamaño al hacer hover */
+}
+
+
+
+/* navbar.component.css */
+
+.nav-home {
+  font-size: 16px;
+  border-radius: 0;
+  color: gray;
+  border-right: 1px solid;
+  border-left: 1px solid;
+  letter-spacing: 0.05em;
+}
+
+.nav-starships {
+  font-size: 16px;
+  border-radius: 0;
+  color: gray;
+  border-right: 1px solid;
+  letter-spacing: 0.05em;
+}
+
+.nav-item:hover {
+  background-color:	#ffc107;
+  color:black;
+}
+
+.nav-tb-line {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}

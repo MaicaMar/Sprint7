@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.bg-image {
+  background-image: url('assets/img/starwars-background-web.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;  /* Esto asegura que la imagen ocupe al menos el 100% de la altura de la ventana */
+}

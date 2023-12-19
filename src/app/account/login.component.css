@@ -1,0 +1,18 @@
+h3 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #ffc107;
+}

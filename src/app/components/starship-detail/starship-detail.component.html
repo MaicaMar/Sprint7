@@ -1,0 +1,24 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div *ngIf="starship" class="col-8 d-lg-flex flex-column border border-secondary px-4 pb-2">
+      <button type="button" class="btn-close btn-close-white align-middle my-2" aria-label="Cerrar" (click)="closeDetails()"></button>
+      <img [src]="imageUrl" alt="{{ starship.name }} Image" class="img-fluid">
+      <h2 class="my-4 py-2">{{ starship.name }}</h2>
+      <ul class="list-unstyled li-classes text-break multi-column">
+        <li> <span>Model: </span> {{ starship.model }}</li>
+        <li> <span>Class: </span> {{ starship.starship_class }}</li>
+        <li> <span>Manufacturer: </span> {{ starship.manufacturer }}</li>
+        <li> <span>Cost in Credits: </span> {{ starship.cost_in_credits }}</li>
+        <li> <span>Length: </span> {{ starship.length }}</li>
+        <li> <span>Crew: </span> {{ starship.crew }}</li>
+        <li> <span>Passengers: </span> {{ starship.passengers }}</li>
+        <li> <span>Max Atmosphering Speed: </span> {{ starship.max_atmosphering_speed }}</li>
+        <li> <span>Hyperdrive Rating: </span> {{ starship.hyperdrive_rating }}</li>
+        <li> <span>Cargo Capacity: </span> {{ starship.cargo_capacity }}</li>
+        <li> <span>Consumables: </span> {{ starship.consumables }}</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+

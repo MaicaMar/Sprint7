@@ -1,0 +1,39 @@
+h1 {
+  font-family: 'Codystar', sans-serif;
+  font-size: 35px;
+  color: white;
+}
+
+.li-classes {
+  font-weight: 300;
+  font-size: 16px;
+  color: gray;
+  border-radius: 5px;
+  background: linear-gradient(to right, rgb(22, 22, 22), transparent);
+}
+
+li.hoverable:hover {
+  cursor: pointer;
+  background:linear-gradient(to right, rgb(38, 38, 38), transparent); /* Cambia el color de fondo en el hover */
+  border-radius: 50px; /* Agrega esquinas redondeadas para simular un botón */
+  transition: background-color 0.3s ease; /* Añade una transición suave */
+}
+
+.view-more:hover {
+  background: transparent;
+  border: 1px solid gray;
+  box-shadow: 2px 2px 0 gray, 2px 2px 6px lightgray;
+  font-weight: 100;
+  letter-spacing: 1px;
+  -webkit-transition: all 150ms linear;
+  transition: all 150ms linear;
+}
+
+.view-more {
+  background: transparent;
+  border: 1px solid gray;
+  color: gray;
+  text-decoration: none;
+  -webkit-transition: all 250ms linear;
+  transition: all 250ms linear;
+}

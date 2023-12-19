@@ -1,0 +1,41 @@
+.border {
+  border: 1px solid green;
+}
+
+h2 {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: white;
+}
+
+ul li span {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: gray;
+  padding-left: 1rem;
+}
+
+ul li {
+  font-weight: 300;
+  font-size: 1.05rem;
+  color:gray;
+}
+
+.multi-column {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  border-left: 2px solid darkred;
+  background-color:rgb(77, 88, 98, 0.6);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.btn-close {
+height: 0.2rem;
+width: 0.2rem;
+padding-top: 2rem;
+}

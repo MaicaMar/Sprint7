@@ -1,0 +1,23 @@
+{
+  "users": [
+    {
+      "email": "users@loquesea.com",
+      "password": "$2a$10$yPM7UqwJALD6cwIf2FEhc.gqmuMB3XXMo/tXgbOUe9azBJY8.s.qq",
+      "id": 1
+    },
+    {
+      "email": "usuario@loquesea.com",
+      "password": "$2a$10$rqXi7Rnx/phRRUjbVH1o6uX5jKLrSTiNpCvAdqjafkRT2gL2hDydC",
+      "firtname": "Maica",
+      "lastname": "Mar",
+      "id": 2
+    },
+    {
+      "email": "isma@yahoo.com",
+      "password": "$2a$10$NsWYVZO6mPTW3UvQjoZABufMEDF1AhRsJwZymBbshN0yccKT2fBIS",
+      "firstName": "Ismael",
+      "lastName": "Kale",
+      "id": 3
+    }
+  ]
+}

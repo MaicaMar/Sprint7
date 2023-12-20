@@ -4,7 +4,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 
 // used to create fake backend
-import { ErrorInterceptor, JwtInterceptor, fakeBackendProvider } from './_helpers';
+import { ErrorInterceptor, JwtInterceptor } from './_helpers';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -33,8 +33,6 @@ import { StarshipDetailComponent } from './components/starship-detail/starship-d
     { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },
     { provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true },
 
-    // provider used to create fake backend
-    fakeBackendProvider
 ],
   bootstrap: [AppComponent]
 })

@@ -15,19 +15,17 @@ ul li span {
   font-style: italic;
   font-size: 1.05rem;
   color: gray;
-  padding-left: 1rem;
 }
 
 ul li {
   font-weight: 300;
   font-size: 1.05rem;
   color:gray;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-.multi-column {
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
+.details-background {
   border-left: 2px solid darkred;
   background-color:rgb(77, 88, 98, 0.6);
   padding-top: 1rem;

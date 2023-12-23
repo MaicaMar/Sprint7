@@ -18,6 +18,13 @@
       "firstName": "Ismael",
       "lastName": "Kale",
       "id": 3
+    },
+    {
+      "email": "hola@hola.com",
+      "password": "$2a$10$/GJFnzuTD5eR1geG98QJe.ha7vJJ7zo8./95yng8XQurnSiAq3ele",
+      "firstName": "Hola",
+      "lastName": "Quetal",
+      "id": 4
     }
   ]
 }

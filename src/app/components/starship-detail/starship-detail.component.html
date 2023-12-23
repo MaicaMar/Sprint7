@@ -3,7 +3,7 @@
     @if (starship) {
       <div class="col-8 d-lg-flex flex-column border border-secondary px-4 pb-2">
         <button type="button" class="btn-close btn-close-white align-middle my-2" aria-label="Cerrar" (click)="closeDetails()"></button>
-        <img [src]="imageUrl" alt="{{ starship.name }} Image" class="img-fluid">
+        <img [src]="imageUrl"  (error)="handleMissingImage($event)" alt="{{ starship.name }} Image" class="img-fluid">
         <h2 class="my-4 py-2">{{ starship.name }}</h2>
         <ul class="list-unstyled li-classes text-break details-background">
           <li> <span>Model: </span> {{ starship.model }}</li>

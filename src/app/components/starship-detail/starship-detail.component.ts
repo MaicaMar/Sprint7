@@ -30,4 +30,9 @@ export class StarshipDetailComponent implements OnInit {
     // Navegar de vuelta al listado
     this.router.navigate(['/starships']);
   }
+
+  public handleMissingImage(event: Event) {
+    (event.target as HTMLImageElement).style.display = 'none';
+  }
+  
 }
